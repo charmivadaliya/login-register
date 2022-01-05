@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reg-login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="edit.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h2>Registration Form</h2>
+    <div id="myForm" name = "myForm" >
+        <!-- <div class="form-group">
+            <label for="name">Id:</label>
+            <input type="text" class="form-control" id="id" placeholder="Enter id" name="id">
+        </div> -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+        </div>
+        <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="number">Number:</label>
+            <input type="number" class="form-control" id="number" placeholder="Enter number" name="number">
+        </div>
+        <button type="button"  onclick="edit()" id="save_btn" class="btn btn-default">Submit</button>
+    </div>
+    </div>
+</body>    
+
+<!-- <script>
+    // console.log(window.location.href);
+    // var urlString=window.location.href;
+    // let paramString = urlString.split('?')[1];
+    // let queryString = new URLSearchParams(paramString);
+    
+     
+    // for(let pair of queryString.entries()) {
+    //     console.log("Key is:" + pair[0]);
+    //     console.log("Value is:" + pair[1]);
+    //     var temp=JSON.parse(localStorage.getItem(localStorage.key(pair[1])));
+    //     if(temp){
+    //         //  for(let i=0;i<temp.length;i++){
+                
+    //         //  }
+    //          temp.forEach((val,i)=>{
+    //             document.getElementById('id').value=temp[i].id;
+    //             document.getElementById('name').value=temp[i].name;
+    //             document.getElementById('email').value=temp[i].email;
+    //             document.getElementById('number').value=temp[i].number;
+    //             document.getElementById('pwd').value=temp[i].pwd;
+    //          });
+    //     }
+        
+    //     console.log(temp);
+    // }
+
+   
+    
+</script> -->
+</html>
